@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form method="get" action="">
+
+        <br><br>
+        <input type="text" value="" placeholder="Digite seu nome!" name="txt_name" id="cx_text">
+        <br><br>
+        <input type="text" value="" placeholder="Digite sua idade!" name="txt_old" id="cx_text">
+
+        <br><br>
+        <input type="checkbox" value="" name="cx_selection" id="cx_selection">Masculino
+        <input type="checkbox" value="" name="cx_selection" id="cx_selection">Feminino
+        <br><br>
+
+        <input type="color" value="" name="cor" id="cor">
+        <br><br>
+
+        <input type="date" value="" name="select_date" id="select_date">
+        <br><br>
+        
+        <input type="datetime-local" value="" name="datatempo" id="datatempo">
+        <br><br>
+
+        <input type="file" name="select_file">
+        <br><br>
+
+        <input type="email" placeholder="falecomigo@dominio.com" name="send_email">
+        <br><br>
+
+        <input type="hidden">
+        <br><br>
+
+        <input type="image" src="xp.jfif" width="1366px" height="50px">
+        <br><br><br><br>
+        
+        <input type="month">
+        <br><br>
+        <input type="number">
+        <br><br>
+        <input type="password">
+        <br><br>
+        <input type="radio" name="radio" id="ex1"> Escola Salesiana São José
+        <br><br>
+        <input type="radio" name="radio" id="ex2"> Prof. Luiz Gonzaga da Costa 
+        <br><br>
+        <input type="range">
+        <br><br>
+        <input type="search">
+        <br><br>
+        <input type="submit" value="Send to page on action">
+        <br><br>
+
+        <input type="tel">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+
+        <input type="number" id="numero" maxlength="3"> <!--nao aceita valores com mais de 3 dgts-->
+
+        <input type="size" id="largura" size="20"> <!--tamanho da caixa txt-->
+        <br><br>
+        
+        <input type="required">
+
+    <optgroup label="frutas1">
+        <option value="abacate">abacate</option>
+        <option value="maçã">maçã</option>
+    </optgroup>
+
+    <optgroup label="frutas2">
+        <option value="pera">pera</option>
+    </optgroup>
+    
+        <!-- Caixa maior / rows: linhas / cols: colunas -->
+        <textarea style="resize: none;" name="area_caixa" id="caixa" cols="30" rows="10" maxlength="20"></textarea> 
+        
+        <br><br>
+        <input type="reset"><br><br>
+        <input type="button" value="Enviar" name="bt_teste" id="bt_teste">
+        
+    </form>
+</body>
+
+</html>
