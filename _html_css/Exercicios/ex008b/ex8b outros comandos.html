@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="pistola.ico" type="image/x-icon">
+	
+	<title> Outras Formatações </title>
+</head>
+
+
+<body>
+
+	<h1> Outras formatações! </h1>
+	<h2> Código-fonte / Pré-formatação </h2> 
+	<p> O comando <code>document.getElementById('teste')</code> é escrito 
+	em linguagem JavaScript. </p>
+	
+	
+	<pre>
+	<code>
+	Console.Write(" Digite seu nome: ");
+	string nome = Console.ReadLine().ToLower();
+	
+	Console.WriteLine(" Bem-vindo(a) caro(a) {0}!!",nome);
+	</code> <!-- Faz com que todos os caracteres ocupem o mesmo espaço (percebe-se ao selecioná-los) -->
+	</pre> <!-- Reconhece como "código" (Segue exatamente a identação que está no compilador) -->
+	
+	
+	<h2> Citações Simples </h2>
+	<p> Como diria o pai de um amigo: <q> O computador é um burro 
+	muito rápido </q>. </p>	 
+	<!-- <q>: Adiciona aspas (podem ser colocadas manualmente, e devem quuando não é uma citação
+	porém colocá-las manualmente em uma citação é "não semântico" -->
+	
+	
+	<h2> Citações Completas </h2>
+	<p> Como Marco Aurélio dizia: </p>
+	
+	<blockquote cite="https://sociologialiquida.org/frases-marco-aurelio/">  
+	<!-- o "cite" não altera nada visualmente, mas utilizando-o, o Google reconhece de onde vem a citação,
+	diminuindo os riscos de ter problemas com direitos autorais, etc. -->
+	
+		Não se entregue aos sonhos de ter o que você não tem,
+		mas calcule a principal das bênçãos que você possui, e então,
+		felizmente, lembre-se de como você ansiaria por elas se não fossem suas.
+	</blockquote>
+	
+	<h2> Abreviações </h2>
+	<p> Estou estudando <abbr title="HyperText Markup Language"> HTML </abbr>
+	e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+	</p>
+	
+	<h2> Texto invertido </h2>
+	<p> <bdo dir="rtl"> Estou aprendendo a criar coisas em HTML </bdo> </p>
+	<!--  bdo: inverte os caracteres / dir="rtl": direção = direita para a esquerda (right to left)-->
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="pistola.ico" type="image/x-icon">
+	
+	<title>Formatação de Texto</title>
+	
+	<style> mark
+	{
+		background-color: lime; <!-- Muda a cor da marcação de todos os mark's (CSS)-->
+	}
+	</style>
+	
+	<!-- A alteração de cores dos marcadores pode ser feita de 2 maneiras, essa de cima,
+	onde todas as marcações serão da cor "lime", ou então na própria linha do código 
+	onde o mark está inserido ex: <mark style="background-color: lime"> texto marcado </mark>
+	-->
+	
+</head>
+
+<body>
+
+	<h1> Principais Formatações: </h1>
+		<h2> Negrito / Destaque </h2>
+		<p> Nesta frase temos um <b> termo em negrito </b>
+		utilizando a tag &lt;b&gt; (sem semântica)  <!-- Forma -->
+		</p> 
+
+		<p> Nesta frase temos um <strong> termo em destaque </strong>
+		utilizando a tag &lt;strong&gt; (semântica) <!-- Sentido -->
+		</p>
+		
+		<h2> Itálico / Ênfase </h2>
+		<p> Nesta frase temos um <i> termo em itálico </i> 
+		utilizando a tag &lt;i&gt; (sem semântica)
+		</p>
+		
+		
+		<p> Nesta frase temos um <em> termo em ênfase </em>
+		utilizando a tag &lt;em&gt; (semântica)
+		</p>
+		
+		<h2> Texto marcado </h2>
+		<p> Podemos criar também, um <mark> texto marcado </mark> 
+		utilizando a tag &lt;mark&gt;
+		</p>
+		
+		<p> Outro <mark> texto marcado </mark> no final </p>
+		
+		<h2> Texto Grande e Pequeno </h2>
+		<p> Criando um <big> texto grande </big> e um <small> texto pequeno </small> neste parágrafo </p>
+		
+		<!-- A tag <big> (aumenta a fonte) está obsoleta, a <small> ainda é válida, pois tem sentido -->
+		
+		
+		<h2> Texto Deletado </h2>
+		<p> É possível marcar <del> um texto como excluído </del>, para indicar
+		que ele deve ser lido, mas não considerado. </p>
+
+		<h2> Texto Inserido</h2>
+		<p> Podemos marcar <ins> um texto como incluído </ins>, para dar uma ênfase 
+		e indicar que este foi adicionado depois. </p> 
+		
+		<p> Existe também a tag &lt;u&gt; para <u> sublinhar </u> (Não semântica)</p>
+		
+		<h2> Texto sobrescrito </h2>
+		<p> Para escrever coisas do tipo x<sup>20</sup> </p>
+		
+		<h2> Texto sub-escrito </h2>
+		<p> Para escrever coisas do tipo H<sub>2</sub>O </p>
+		
+<body>
+</html>

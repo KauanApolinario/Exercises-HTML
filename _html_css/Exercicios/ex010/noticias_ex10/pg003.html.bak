@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="anonim.ico" type="image/x-icon">
+	
+<title>Página 03</title>
+</head>
+
+<body>
+	<h1>3ª página do site</h1>
+	<p>Esta é a terceira página</p>
+	<p>Oferecimento de 
+	<a href="https://www.linkedin.com/groups/9106515/" target="_blanck" rel="nofollow">C.K.Y Corporate</a></p>
+	<!--  -->
+	<br>
+	<p><a href="../ex10 links.html" rel="prev">Voltar para a página inicial</a></p>
+</body>
+</html>

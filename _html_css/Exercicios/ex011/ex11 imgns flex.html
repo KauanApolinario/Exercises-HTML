@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="eye.ico" type="image/x-icon">
+	<title>Mídias em HTML5</title>
+</head>
+
+<body>
+	<h1>Imagens dinâmicas</h1>
+	<p>Tente abrir este site em diversos dispositívos, 
+	ou diminua o zoom de seu navegador.</p>
+	
+	<picture> 
+	<source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+	<source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+	<img src="imagens/foto-g.png" alt="Imagem flexível">
+	</picture>
+	
+	<h1>Reproduzindo Áudio</h1>
+	<p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+	<audio preload="metadata" autoplay controls loop > 
+	<source src="midias/grass_silent_partner.mp3" type="audio/mpeg">
+	<source src="midias/grass_silent_partner.ogg" type="audio/mpeg">
+	<source src="midias/grass_silent_partner.wav" type="audio/mpeg">
+	</audio>
+	
+	<p>Seu navegador não possui suporte para áudios, baixe-o
+	<a href="midias/grass_silent_partner.mp3">aqui</a></p>
+	
+	
+	<!-- Ou <audio src="midias/grass_silent_partner.mp3" controls> </audio> -->
+	
+</body>
+</html>
